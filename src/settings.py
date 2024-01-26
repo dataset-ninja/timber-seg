@@ -32,13 +32,11 @@ CV_TASKS: List[CVTask] = [
     CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
 ]
-ANNOTATION_TYPES: List[AnnotationType] = (
-    [
-        AnnotationType.InstanceSegmentation(),
-        AnnotationType.SemanticSegmentation(),
-        AnnotationType.ObjectDetection(),
-    ],
-)
+ANNOTATION_TYPES: List[AnnotationType] = [
+    AnnotationType.InstanceSegmentation(),
+    AnnotationType.SemanticSegmentation(),
+    AnnotationType.ObjectDetection(),
+]
 
 RELEASE_DATE: Optional[str] = "2022-04-22"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
