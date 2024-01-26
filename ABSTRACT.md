@@ -14,7 +14,7 @@ To address these complexities, the authors have compiled a densely annotated dat
 
 The TimberSeg 1.0 dataset, is composed of 220 images containing 2500 instances of wood logs in representative environments and dispositions. These images were carefully selected to capture typical viewpoints and situations that a forwarder or wood loader operator would operate with. Images have been collected in four types of environments.
 
-<img src="https://github.com/dataset-ninja/timber-seg/assets/120389559/b673fe31-e3c3-428f-a296-e073e61c8852" alt="image" width="1000">
+<img src="https://github.com/dataset-ninja/timber-seg/assets/120389559/d311d846-8ff8-4fa9-b248-53bb19fd410d" alt="image" width="800">
 
 <span style="font-size: smaller; font-style: italic;">Environment Types.</span>
 
@@ -24,7 +24,7 @@ Supplementing this dynamic video footage, we utilized a Canon EOS M50 digital ca
 
 To enhance the dataset's geographical representation, we incorporated additional images sourced from publicly available videos on the internet. This comprehensive approach ensures a rich and varied collection of data for our study. The forests images are predominant on purpose, as they exhibit harder visual conditions. The images contain a widely varying number of log instances, ranging from 1 to 29 logs, for an average of 11.3.
 
-<img src="https://github.com/dataset-ninja/timber-seg/assets/120389559/951b80a3-3c9e-4e65-9992-77da3fcd6caf" alt="image" width="1000">
+<img src="https://github.com/dataset-ninja/timber-seg/assets/120389559/951b80a3-3c9e-4e65-9992-77da3fcd6caf" alt="image" width="800">
 
 <span style="font-size: smaller; font-style: italic;">Logs per image.</span>
 
