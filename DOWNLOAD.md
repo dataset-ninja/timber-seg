@@ -1,6 +1,6 @@
 Dataset **TimberSeg** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/e/i/XO/VK10pJhysCaRFOaXYLY5uHUSYGmEmD6OwTCMlYr7NHfpM93DF9DuB8WTdOdlUvhNxWUn3pgADmHnQs7OdpYORclhS75jJnOfQZutxC1sXVmKku8GfBrsDrp84nOW.tar)
+ [Download](https://www.dropbox.com/scl/fi/6xkao9h8f30dimgwz2z51/timberseg-DatasetNinja.tar?rlkey=s459yr68g3bubrslre1myokm9&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
