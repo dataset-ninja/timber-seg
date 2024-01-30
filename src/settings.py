@@ -15,17 +15,14 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "TimberSeg"
 PROJECT_NAME_FULL: str = "TimberSeg 1.0"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.Forestry(),
-    Industry.Manufacturing(),
-]
-CATEGORY: Category = Category.Manufacturing()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Forestry(), Industry.Robotics()]
+CATEGORY: Category = Category.Manufacturing(extra=Category.Robotics())
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
